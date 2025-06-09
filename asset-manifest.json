@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cal-Asia/static/css/main.27fae55b.css",
+    "main.js": "/Cal-Asia/static/js/main.12d1f75c.js",
+    "index.html": "/Cal-Asia/index.html",
+    "main.27fae55b.css.map": "/Cal-Asia/static/css/main.27fae55b.css.map",
+    "main.12d1f75c.js.map": "/Cal-Asia/static/js/main.12d1f75c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27fae55b.css",
+    "static/js/main.12d1f75c.js"
+  ]
+}
