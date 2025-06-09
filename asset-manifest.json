@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Cal-Asia/static/css/main.27fae55b.css",
-    "main.js": "/Cal-Asia/static/js/main.11b0c0fc.js",
+    "main.js": "/Cal-Asia/static/js/main.56217890.js",
     "index.html": "/Cal-Asia/index.html",
     "main.27fae55b.css.map": "/Cal-Asia/static/css/main.27fae55b.css.map",
-    "main.11b0c0fc.js.map": "/Cal-Asia/static/js/main.11b0c0fc.js.map"
+    "main.56217890.js.map": "/Cal-Asia/static/js/main.56217890.js.map"
   },
   "entrypoints": [
     "static/css/main.27fae55b.css",
-    "static/js/main.11b0c0fc.js"
+    "static/js/main.56217890.js"
   ]
 }
