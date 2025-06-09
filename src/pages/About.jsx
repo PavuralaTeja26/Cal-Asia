@@ -17,10 +17,10 @@ const About = () => {
         <section className="video-section">
           <div className="video-container">
             <div className="video-wrapper">
-              <video controls preload="metadata" style={{ maxWidth: '100%', height: 'auto' }}>
-                <source src={`${process.env.PUBLIC_URL}/videos/calasiaprocess.mp4`} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <video controls preload="metadata" width="100%">
+  <source src={`${process.env.PUBLIC_URL}/videos/calasiaprocess.mp4`} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
             </div>
           </div>
         </section>

@@ -61,7 +61,11 @@ const Services = () => {
       image: "/standardrepair.jpeg",
       title: "Standard Repair",
       description: "Expert repair services to restore functionality and reliability.",
-      features: ["Factory-trained technicians", "OEM replacement parts", "Warranty coverage"],
+      features: [
+        "Factory-trained technicians",
+        "OEM replacement parts",
+        "Warranty coverage",
+      ],
       color: "green",
     },
     {
@@ -72,7 +76,7 @@ const Services = () => {
       color: "orange",
     },
     {
-      image: "/rental.WebP",
+      image: "/rental.webp",  // fixed extension to lowercase
       title: "Rental Services",
       description: "Short-term and long-term equipment rentals for your needs.",
       features: ["Wide range of instruments", "Flexible rental terms", "Ready-to-use delivery"],
@@ -135,7 +139,7 @@ const Services = () => {
       color: "green",
     },
     {
-      image: "/flexiblepayment.WebP",
+      image: "/flexiblepayment.webp",  // fixed extension to lowercase
       title: "Flexible payment options ",
       description: "Multiple payment solutions to suit your business needs.",
       features: ["Installment plans", "Lease agreements", "Credit facilities"],
@@ -158,6 +162,7 @@ const Services = () => {
                   src={PUBLIC_URL + service.image}
                   alt={service.title}
                   className="service-image"
+                  loading="lazy"
                 />
                 <h2 className="service-title">{service.title}</h2>
               </div>
