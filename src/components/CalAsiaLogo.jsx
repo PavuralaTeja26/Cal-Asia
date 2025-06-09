@@ -13,7 +13,7 @@ const CalAsiaLogo = () => {
   ];
 
   return (
-    <div className="calasia-background-logo">
+    <div className="calasia-logo-container">
       <div className="sound-bars">
         {bars.map((bar, index) => (
           <div

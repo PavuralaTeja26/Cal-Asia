@@ -10,6 +10,8 @@ const Navbar = ({ isOpen, closeNav, openNav }) => {
     navigate(path);
   };
 
+  const logoSrc = `${process.env.PUBLIC_URL}/img_girl.jpg`; // GitHub Pages compatible
+
   return (
     <>
       <style>{`
@@ -75,7 +77,7 @@ const Navbar = ({ isOpen, closeNav, openNav }) => {
       >
         <div>
           <img
-            src="img_girl.jpg"
+            src={logoSrc}
             alt="Logo"
             style={{ height: '40px', cursor: 'pointer' }}
             onClick={() => navigate('/')}
@@ -138,24 +140,16 @@ const Navbar = ({ isOpen, closeNav, openNav }) => {
         >
           &times;
         </button>
+
         <div className="sidenav-logo" style={{ marginBottom: '40px' }}>
-          <img src="img_girl.jpg" alt="Logo" style={{ width: '150px' }} />
+          <img src={logoSrc} alt="Logo" style={{ width: '150px' }} />
         </div>
-        <button onClick={() => handleNavigate('/about')} className="nav-link">
-          About
-        </button>
-        <button onClick={() => handleNavigate('/services')} className="nav-link">
-          Services
-        </button>
-        <button onClick={() => handleNavigate('/accreditation')} className="nav-link">
-          Accreditation
-        </button>
-        <button onClick={() => handleNavigate('/oursuccess')} className="nav-link">
-          Our Portfolio
-        </button>
-        <button onClick={() => handleNavigate('/contact')} className="nav-link">
-          Contact
-        </button>
+
+        <button onClick={() => handleNavigate('/about')} className="nav-link">About</button>
+        <button onClick={() => handleNavigate('/services')} className="nav-link">Services</button>
+        <button onClick={() => handleNavigate('/accreditation')} className="nav-link">Accreditation</button>
+        <button onClick={() => handleNavigate('/oursuccess')} className="nav-link">Our Portfolio</button>
+        <button onClick={() => handleNavigate('/contact')} className="nav-link">Contact</button>
       </div>
     </>
   );
